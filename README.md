@@ -5,9 +5,11 @@ RANSAC, KD-Tree, and Euclidean clustering.
 
 **Run the builds from here :**
 
-build\Debug\environment.exe
-src\quiz\cluster\build\Debug\quizCluster.exe
-src\quiz\ransac\build\Debug\quizRansac.exe
+1. build\Debug\environment.exe
+
+2. src\quiz\cluster\build\Debug\quizCluster.exe
+
+3. src\quiz\ransac\build\Debug\quizRansac.exe
 
 </br>
 <img src="media/Project1Output.gif" width="963" height="543" />
