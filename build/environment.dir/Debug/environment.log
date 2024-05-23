@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Udacity/Code/23May/SFND_Lidar_Obstacle_Detection-master/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '-std=c++11'
+  environment.cpp
+  render.cpp
+  processPointClouds.cpp
+  Generating Code...
+  environment.vcxproj -> D:\Udacity\Code\23May\SFND_Lidar_Obstacle_Detection-master\build\Debug\environment.exe

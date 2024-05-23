@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Udacity\Code\23May\SFND_Lidar_Obstacle_Detection-master\src\quiz\cluster\cluster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Udacity\Code\23May\SFND_Lidar_Obstacle_Detection-master\src\render\render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Udacity\Code\23May\SFND_Lidar_Obstacle_Detection-master\src\quiz\cluster\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{561A214F-6C7A-3258-802C-5C95D1635812}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^D:\UDACITY\CODE\23MAY\SFND_LIDAR_OBSTACLE_DETECTION-MASTER\SRC\QUIZ\RANSAC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Udacity/Code/23May/SFND_Lidar_Obstacle_Detection-master/src/quiz/ransac -BD:/Udacity/Code/23May/SFND_Lidar_Obstacle_Detection-master/src/quiz/ransac/build --check-stamp-file D:/Udacity/Code/23May/SFND_Lidar_Obstacle_Detection-master/src/quiz/ransac/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
