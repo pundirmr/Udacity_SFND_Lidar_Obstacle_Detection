@@ -1,0 +1,10 @@
+^D:\UDACITY\GITHUB\UDACITY_SFND_LIDAR_OBSTACLE_DETECTION\SRC\QUIZ\CLUSTER\BUILD\CMAKEFILES\B5457C1F30413CA2F57E15616300B3FC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/cluster -BD:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/cluster/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/cluster/build/playback.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

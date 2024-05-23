@@ -3,6 +3,12 @@
 Implementations of : 
 RANSAC, KD-Tree, and Euclidean clustering.
 
+**Run the builds from here :**
+
+build\Debug\environment.exe
+src\quiz\cluster\build\Debug\quizCluster.exe
+src\quiz\ransac\build\Debug\quizRansac.exe
+
 </br>
 <img src="media/Project1Output.gif" width="963" height="543" />
 <figcaption><b>Object detection</b></figcaption>

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/cluster/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '-std=c++11'
+  cluster.cpp
+  render.cpp
+  Generating Code...
+  quizCluster.vcxproj -> D:\Udacity\GIthub\Udacity_SFND_Lidar_Obstacle_Detection\src\quiz\cluster\build\Debug\quizCluster.exe

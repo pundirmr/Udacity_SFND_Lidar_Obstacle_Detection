@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Udacity\GIthub\Udacity_SFND_Lidar_Obstacle_Detection\src\quiz\ransac\build\CMakeFiles\6e3ccb713842781d3ad9335a809ba774\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4FC21535-CE89-37EA-B633-30A558BCD3D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

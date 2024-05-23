@@ -1,0 +1,576 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 5/23/2024 11:41:22 PM.
+      Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\3.27.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.31
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/3.27.6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 5/23/2024 11:41:23 PM.
+      Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\3.27.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.20
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/3.27.6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-hwv9nk"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-hwv9nk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-hwv9nk'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_df6a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:25 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwv9nk\\cmTC_df6a9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_df6a9.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwv9nk\\Debug\\".
+          Creating directory "cmTC_df6a9.dir\\Debug\\cmTC_df6a9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_df6a9.dir\\Debug\\cmTC_df6a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df6a9.dir\\Debug\\\\" /Fd"cmTC_df6a9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df6a9.dir\\Debug\\\\" /Fd"cmTC_df6a9.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwv9nk\\Debug\\cmTC_df6a9.exe" /INCREMENTAL /ILK:"cmTC_df6a9.dir\\Debug\\cmTC_df6a9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-hwv9nk/Debug/cmTC_df6a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-hwv9nk/Debug/cmTC_df6a9.lib" /MACHINE:X64  /machine:x64 cmTC_df6a9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_df6a9.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwv9nk\\Debug\\cmTC_df6a9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_df6a9.dir\\Debug\\cmTC_df6a9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_df6a9.dir\\Debug\\cmTC_df6a9.tlog\\cmTC_df6a9.lastbuildstate".
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwv9nk\\cmTC_df6a9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-m6j2bu"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-m6j2bu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-m6j2bu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_e4923.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:27 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6j2bu\\cmTC_e4923.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e4923.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6j2bu\\Debug\\".
+          Creating directory "cmTC_e4923.dir\\Debug\\cmTC_e4923.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e4923.dir\\Debug\\cmTC_e4923.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e4923.dir\\Debug\\\\" /Fd"cmTC_e4923.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e4923.dir\\Debug\\\\" /Fd"cmTC_e4923.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6j2bu\\Debug\\cmTC_e4923.exe" /INCREMENTAL /ILK:"cmTC_e4923.dir\\Debug\\cmTC_e4923.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-m6j2bu/Debug/cmTC_e4923.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-m6j2bu/Debug/cmTC_e4923.lib" /MACHINE:X64  /machine:x64 cmTC_e4923.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e4923.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6j2bu\\Debug\\cmTC_e4923.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e4923.dir\\Debug\\cmTC_e4923.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e4923.dir\\Debug\\cmTC_e4923.tlog\\cmTC_e4923.lastbuildstate".
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6j2bu\\cmTC_e4923.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/PCL 1.14.0/cmake/Modules/FindOpenMP.cmake:206 (try_compile)"
+      - "C:/Program Files/PCL 1.14.0/cmake/Modules/FindOpenMP.cmake:451 (_OPENMP_GET_FLAGS)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:332 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:561 (find_external_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.14.0/cmake/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_f773d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:29 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\cmTC_f773d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f773d.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_f773d.dir\\Debug\\cmTC_f773d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f773d.dir\\Debug\\cmTC_f773d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_f773d.dir\\Debug\\\\" /Fd"cmTC_f773d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\FindOpenMP\\OpenMPTryFlag.c
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_f773d.dir\\Debug\\\\" /Fd"cmTC_f773d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\FindOpenMP\\OpenMPTryFlag.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f773d.exe" /INCREMENTAL /ILK:"cmTC_f773d.dir\\Debug\\cmTC_f773d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/Debug/cmTC_f773d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/Debug/cmTC_f773d.lib" /MACHINE:X64  /machine:x64 cmTC_f773d.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_f773d.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f773d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f773d.dir\\Debug\\cmTC_f773d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f773d.dir\\Debug\\cmTC_f773d.tlog\\cmTC_f773d.lastbuildstate".
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\cmTC_f773d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/PCL 1.14.0/cmake/Modules/FindOpenMP.cmake:206 (try_compile)"
+      - "C:/Program Files/PCL 1.14.0/cmake/Modules/FindOpenMP.cmake:451 (_OPENMP_GET_FLAGS)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:332 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:561 (find_external_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.14.0/cmake/Modules"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_940cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:30 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\cmTC_940cc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_940cc.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_940cc.dir\\Debug\\cmTC_940cc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_940cc.dir\\Debug\\cmTC_940cc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_940cc.dir\\Debug\\\\" /Fd"cmTC_940cc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\FindOpenMP\\OpenMPTryFlag.cpp
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_940cc.dir\\Debug\\\\" /Fd"cmTC_940cc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\FindOpenMP\\OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_940cc.exe" /INCREMENTAL /ILK:"cmTC_940cc.dir\\Debug\\cmTC_940cc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/Debug/cmTC_940cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/Debug/cmTC_940cc.lib" /MACHINE:X64  /machine:x64 cmTC_940cc.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_940cc.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_940cc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_940cc.dir\\Debug\\cmTC_940cc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_940cc.dir\\Debug\\cmTC_940cc.tlog\\cmTC_940cc.lastbuildstate".
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\cmTC_940cc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/PCL 1.14.0/cmake/Modules/FindOpenMP.cmake:386 (try_compile)"
+      - "C:/Program Files/PCL 1.14.0/cmake/Modules/FindOpenMP.cmake:514 (_OPENMP_GET_SPEC_DATE)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:332 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:561 (find_external_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.14.0/cmake/Modules"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_f7e20.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:32 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\cmTC_f7e20.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f7e20.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_f7e20.dir\\Debug\\cmTC_f7e20.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f7e20.dir\\Debug\\cmTC_f7e20.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_f7e20.dir\\Debug\\\\" /Fd"cmTC_f7e20.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\FindOpenMP\\OpenMPCheckVersion.cpp
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_f7e20.dir\\Debug\\\\" /Fd"cmTC_f7e20.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\FindOpenMP\\OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f7e20.exe" /INCREMENTAL /ILK:"cmTC_f7e20.dir\\Debug\\cmTC_f7e20.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/Debug/cmTC_f7e20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeTmp/Debug/cmTC_f7e20.lib" /MACHINE:X64  /machine:x64 cmTC_f7e20.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_f7e20.vcxproj -> D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_f7e20.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f7e20.dir\\Debug\\cmTC_f7e20.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f7e20.dir\\Debug\\cmTC_f7e20.tlog\\cmTC_f7e20.lastbuildstate".
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeTmp\\cmTC_f7e20.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.19
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:271 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:320 (find_VTK)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:561 (find_external_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-yd6o3k"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-yd6o3k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/patches/99;C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3;C:/Program Files/PCL 1.14.0/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-yd6o3k'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_ed768.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:34 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\cmTC_ed768.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ed768.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\Debug\\".
+          Creating directory "cmTC_ed768.dir\\Debug\\cmTC_ed768.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ed768.dir\\Debug\\cmTC_ed768.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed768.dir\\Debug\\\\" /Fd"cmTC_ed768.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed768.dir\\Debug\\\\" /Fd"cmTC_ed768.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\src.c"
+        D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\cmTC_ed768.vcxproj]
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\cmTC_ed768.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\cmTC_ed768.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd6o3k\\cmTC_ed768.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:271 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:320 (find_VTK)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:561 (find_external_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-25qj4v"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-25qj4v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/patches/99;C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3;C:/Program Files/PCL 1.14.0/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-25qj4v'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_6be78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:35 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\cmTC_6be78.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6be78.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\Debug\\".
+          Creating directory "cmTC_6be78.dir\\Debug\\cmTC_6be78.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6be78.dir\\Debug\\cmTC_6be78.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6be78.dir\\Debug\\\\" /Fd"cmTC_6be78.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6be78.dir\\Debug\\\\" /Fd"cmTC_6be78.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\Debug\\cmTC_6be78.exe" /INCREMENTAL /ILK:"cmTC_6be78.dir\\Debug\\cmTC_6be78.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-25qj4v/Debug/cmTC_6be78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-25qj4v/Debug/cmTC_6be78.lib" /MACHINE:X64  /machine:x64 cmTC_6be78.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\cmTC_6be78.vcxproj]
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\cmTC_6be78.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\cmTC_6be78.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-25qj4v\\cmTC_6be78.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.06
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:271 (find_package)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:320 (find_VTK)"
+      - "C:/Program Files/PCL 1.14.0/cmake/PCLConfig.cmake:561 (find_external_library)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-1e7zv2"
+      binary: "D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-1e7zv2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3/patches/99;C:/Program Files/PCL 1.14.0/3rdParty/VTK/lib/cmake/vtk-9.3;C:/Program Files/PCL 1.14.0/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-1e7zv2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_f647a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/23/2024 11:41:37 PM.
+        Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\cmTC_f647a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f647a.dir\\Debug\\".
+          Creating directory "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\Debug\\".
+          Creating directory "cmTC_f647a.dir\\Debug\\cmTC_f647a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f647a.dir\\Debug\\cmTC_f647a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f647a.dir\\Debug\\\\" /Fd"cmTC_f647a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30145 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f647a.dir\\Debug\\\\" /Fd"cmTC_f647a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\Debug\\cmTC_f647a.exe" /INCREMENTAL /ILK:"cmTC_f647a.dir\\Debug\\cmTC_f647a.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-1e7zv2/Debug/cmTC_f647a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/build/CMakeFiles/CMakeScratch/TryCompile-1e7zv2/Debug/cmTC_f647a.lib" /MACHINE:X64  /machine:x64 cmTC_f647a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\cmTC_f647a.vcxproj]
+        Done Building Project "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\cmTC_f647a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\cmTC_f647a.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Udacity\\GIthub\\Udacity_SFND_Lidar_Obstacle_Detection\\src\\quiz\\ransac\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1e7zv2\\cmTC_f647a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.03
+        
+      exitCode: 1
+...

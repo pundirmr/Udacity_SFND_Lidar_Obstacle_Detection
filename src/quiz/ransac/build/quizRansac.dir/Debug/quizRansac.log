@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/src/quiz/ransac/CMakeLists.txt
+cl : command line warning D9002: ignoring unknown option '-std=c++11'
+  ransac2d.cpp
+  render.cpp
+  Generating Code...
+  quizRansac.vcxproj -> D:\Udacity\GIthub\Udacity_SFND_Lidar_Obstacle_Detection\src\quiz\ransac\build\Debug\quizRansac.exe
