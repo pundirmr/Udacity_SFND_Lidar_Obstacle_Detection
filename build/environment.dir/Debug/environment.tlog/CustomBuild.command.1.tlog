@@ -1,0 +1,10 @@
+^D:\UDACITY\GITHUB\UDACITY_SFND_LIDAR_OBSTACLE_DETECTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection -BD:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/build --check-stamp-file D:/Udacity/GIthub/Udacity_SFND_Lidar_Obstacle_Detection/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

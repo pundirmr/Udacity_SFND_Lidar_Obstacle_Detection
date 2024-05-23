@@ -139,7 +139,7 @@ void cityBlockStream(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPoin
     // Render box 
     int clusterId = 0;
     bool display = false;
-    bool boundsV1 = false;
+    bool boundsV1 = true;
     float xmin = -1.5;
     float ymin = -1.7;
     float zmin = -1;
