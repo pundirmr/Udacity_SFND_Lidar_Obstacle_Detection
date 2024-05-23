@@ -9,12 +9,12 @@ RANSAC, KD-Tree, and Euclidean clustering.
 </br>
 
 </br>
-<img src="media/Quiz1.gif" width="965" height="570" />
+<img src="media/Quiz1.png" width="965" height="570" />
 <figcaption><b>Quiz 1</b></figcaption>
 </br>
 
 </br>
-<img src="media/Quiz2.gif" width="983" height="577" />
+<img src="media/Quiz2.png" width="983" height="577" />
 <figcaption><b>Quiz 2/b></figcaption>
 </br>
 

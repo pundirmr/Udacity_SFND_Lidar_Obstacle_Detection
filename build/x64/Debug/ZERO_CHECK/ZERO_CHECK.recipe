@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Udacity\Code\23May\SFND_Lidar_Obstacle_Detection-master\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Udacity\GIthub\Udacity_SFND_Lidar_Obstacle_Detection\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
